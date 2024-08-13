@@ -1,0 +1,38 @@
+package Class1Prac;
+
+import java.util.Scanner;
+
+public class Exam5 {
+	public static void main(String[] args) {
+		System.out.println("Enter the Day Number:");
+		Scanner sc=new Scanner(System.in);
+		int a=sc.nextInt();
+		switch(a)
+		{
+		case d1:
+			System.out.println("Day Name:Saturday");
+			break;
+		case d2:
+			System.out.println("Day Name:Sunday");
+			break;
+		case d3:
+			System.out.println("Day Name:Monday");
+			break;
+		case d4:
+			System.out.println("Day Name:Tuesday");
+			break;
+		case d5:
+			System.out.println("Day Name:Wednesday");
+			break;
+		case d6:
+			System.out.println("Day Name:Thursday");
+			break;
+		case d7:
+			System.out.println("Day Name:Friday");
+			break;
+	
+		
+		}
+	}
+
+}

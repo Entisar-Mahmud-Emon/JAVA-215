@@ -1,0 +1,12 @@
+package Class1Prac;
+
+public class prac_05_mul_table {
+public static void main(String[] args) {
+	System.out.println("\tMultiplication Table 1 to 5");
+	for(int i=1;i<=10;i++)
+	{
+		System.out.println("1 X "+i+"="+(1*i));
+	}
+	
+}
+}
